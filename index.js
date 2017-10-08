@@ -5,8 +5,8 @@ for(var i = 0;i < lines.length;i++){
     withcheese = lines[i].split(',')
     for(var e = 0;e < withcheese.length;e++){
         //help
-        if (withcheese[e].split('.')[1] = ip.split('.')[1]) {
-            if (withcheese[e].split('.')[2] = ip.split('.')[2]) {
+        if (withcheese[1].split('.')[e] = ip.split('.')[1]) {
+            if (withcheese[2].split('.')[e] = ip.split('.')[2]) {
                 alert("is russian");
             }
         }
