@@ -1,3 +1,10 @@
+var oReq = new XMLHttpRequest();
+var database;
+oReq.open("GET", "database", true);
+oReq.onload = function(e) {
+   database = oReq.responseText; 
+}
+oReq.send();
 var lines = database.split('\n');
 var ip = "8.8.8.8";
 var withcheese = '';
